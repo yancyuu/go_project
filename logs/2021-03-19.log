@@ -1,0 +1,138 @@
+
+time="2021-03-19 16:32:33" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.User.UserLogin\"}" name=yancy
+time="2021-03-19 16:32:33" level=info msg="post请求的输入参数%vmap[interfaceName:user.User.UserLogin]" name=yancy
+time="2021-03-19 16:32:33" level=info msg="After Create %s{<nil> <nil> user.User.UserLogin <nil>}" name=yancy
+time="2021-03-19 16:52:21" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.User.UserLogin\"}" name=yancy
+time="2021-03-19 16:52:21" level=info msg="post请求的输入参数%vmap[interfaceName:user.User.UserLogin]" name=yancy
+time="2021-03-19 16:52:21" level=info msg="After Create %s{<nil> <nil> user.User.UserLogin <nil>}" name=yancy
+time="2021-03-19 16:52:21" level=info msg="传入的函数参数为 %v[<*controller.RequestParam Value>]" name=yancy
+time="2021-03-19 17:20:56" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.User.UserLogin\"}" name=yancy
+time="2021-03-19 17:20:56" level=info msg="post请求的输入参数%vmap[interfaceName:user.User.UserLogin]" name=yancy
+time="2021-03-19 17:20:56" level=info msg="After Create %s{<nil> <nil> user.User.UserLogin <nil>}" name=yancy
+time="2021-03-19 17:20:56" level=info msg="传入的函数参数为 %v[<*controller.RequestParam Value>]" name=yancy
+time="2021-03-19 17:22:18" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.UserLogin\"}" name=yancy
+time="2021-03-19 17:22:18" level=info msg="post请求的输入参数%vmap[interfaceName:user.UserLogin]" name=yancy
+time="2021-03-19 17:22:18" level=info msg="After Create %s{<nil> <nil> user.UserLogin <nil>}" name=yancy
+time="2021-03-19 17:22:18" level=info msg="传入的函数参数为 %v[<*controller.RequestParam Value>]" name=yancy
+time="2021-03-19 17:22:50" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.UserLogin\"}" name=yancy
+time="2021-03-19 17:22:50" level=info msg="post请求的输入参数%vmap[interfaceName:user.UserLogin]" name=yancy
+time="2021-03-19 17:22:50" level=info msg="After Create %s{<nil> <nil> user.UserLogin <nil>}" name=yancy
+time="2021-03-19 17:22:50" level=info msg="传入的函数参数为 %v[<*controller.RequestParam Value>]" name=yancy
+time="2021-03-19 17:32:45" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.UserLogin\"}" name=yancy
+time="2021-03-19 17:32:45" level=info msg="post请求的输入参数%vmap[interfaceName:user.UserLogin]" name=yancy
+time="2021-03-19 17:32:45" level=info msg="After Create %s{<nil> <nil> user.UserLogin <nil>}" name=yancy
+time="2021-03-19 17:32:45" level=info msg="before 传入的函数参数为 %v&{<nil> <nil> user.UserLogin <nil>}" name=yancy
+time="2021-03-19 17:32:45" level=info msg="传入的函数参数为 %v[<*controller.RequestParam Value>]" name=yancy
+time="2021-03-19 18:12:22" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.UserLogin\"}" name=yancy
+time="2021-03-19 18:12:22" level=info msg="post请求的输入参数%vmap[interfaceName:user.UserLogin]" name=yancy
+time="2021-03-19 18:12:22" level=info msg="After Create %s{<nil> <nil> user.UserLogin <nil>}" name=yancy
+time="2021-03-19 18:12:22" level=info msg="before 传入的函数参数为 %v&{<nil> <nil> user.UserLogin <nil>}" name=yancy
+time="2021-03-19 18:12:22" level=info msg="传入的函数参数为 %v[<*controller.RequestParam Value>]" name=yancy
+time="2021-03-19 18:37:38" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.UserLogin\"}" name=yancy
+time="2021-03-19 18:37:38" level=info msg="post请求的输入参数%vmap[interfaceName:user.UserLogin]" name=yancy
+time="2021-03-19 18:37:38" level=info msg="After Create %s{<nil> <nil> user.UserLogin <nil>}" name=yancy
+time="2021-03-19 18:37:38" level=info msg="传入的函数参数为 %v[<invalid Value>]" name=yancy
+time="2021-03-19 18:38:20" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.UserLogin\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 18:38:20" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:user.UserLogin]" name=yancy
+time="2021-03-19 18:38:20" level=info msg="After Create %s{<nil> <nil> user.UserLogin dsdsd}" name=yancy
+time="2021-03-19 18:38:20" level=info msg="传入的函数参数为 %v[dsdsd]" name=yancy
+time="2021-03-19 18:40:22" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.UserLogin\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 18:40:22" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:user.UserLogin]" name=yancy
+time="2021-03-19 18:40:22" level=info msg="After Create %s{<nil> <nil> user.UserLogin dsdsd}" name=yancy
+time="2021-03-19 18:40:22" level=info msg="传入的函数参数为 %v[sasas]" name=yancy
+time="2021-03-19 18:43:24" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.UserLogin\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 18:43:24" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:user.UserLogin]" name=yancy
+time="2021-03-19 18:43:24" level=info msg="After Create %s{<nil> <nil> user.UserLogin dsdsd}" name=yancy
+time="2021-03-19 18:43:24" level=info msg="传入的函数参数为 %v[sasas]" name=yancy
+time="2021-03-19 18:46:53" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.UserLogin\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 18:46:53" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:user.UserLogin]" name=yancy
+time="2021-03-19 18:46:53" level=info msg="After Create %s{<nil> <nil> user.UserLogin dsdsd}" name=yancy
+time="2021-03-19 18:46:53" level=info msg="传入的函数参数为 %v[sasas]" name=yancy
+time="2021-03-19 18:58:38" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.UserLogin\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 18:58:38" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:user.UserLogin]" name=yancy
+time="2021-03-19 18:58:38" level=info msg="After Create %s{<nil> <nil> user.UserLogin dsdsd}" name=yancy
+time="2021-03-19 18:58:38" level=info msg="传入的函数参数为 %v[sasas]" name=yancy
+time="2021-03-19 18:59:42" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.UserLogin\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 18:59:42" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:user.UserLogin]" name=yancy
+time="2021-03-19 18:59:42" level=info msg="After Create %s{<nil> <nil> user.UserLogin dsdsd}" name=yancy
+time="2021-03-19 18:59:42" level=info msg="传入的函数参数为 %v[sasas]" name=yancy
+time="2021-03-19 19:02:16" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.UserLogin\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 19:02:16" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:user.UserLogin]" name=yancy
+time="2021-03-19 19:02:16" level=info msg="After Create %s{<nil> <nil> user.UserLogin dsdsd}" name=yancy
+time="2021-03-19 19:02:16" level=info msg="传入的函数参数为 %v[sasas]" name=yancy
+time="2021-03-19 19:05:03" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.Login\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 19:05:03" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:user.Login]" name=yancy
+time="2021-03-19 19:05:03" level=info msg="After Create %s{<nil> <nil> user.Login dsdsd}" name=yancy
+time="2021-03-19 19:05:03" level=info msg="传入的函数参数为 %v[sasas]" name=yancy
+time="2021-03-19 19:11:54" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.Login\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 19:11:54" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:user.Login]" name=yancy
+time="2021-03-19 19:11:54" level=info msg="After Create %s{<nil> <nil> user.Login dsdsd}" name=yancy
+time="2021-03-19 19:11:54" level=info msg="传入的函数参数为 %v[salsas]" name=yancy
+time="2021-03-19 19:15:11" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.Login\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 19:15:11" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:user.Login]" name=yancy
+time="2021-03-19 19:15:11" level=info msg="After Create %s{<nil> <nil> user.Login dsdsd}" name=yancy
+time="2021-03-19 19:15:11" level=info msg="传入的函数参数为 %v[salsas]" name=yancy
+time="2021-03-19 19:19:41" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.Login\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 19:19:41" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:user.Login]" name=yancy
+time="2021-03-19 19:19:41" level=info msg="After Create %s{<nil> <nil> user.Login dsdsd}" name=yancy
+time="2021-03-19 19:19:41" level=info msg="传入的函数参数为 %v[salsas]" name=yancy
+time="2021-03-19 19:23:37" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.Login\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 19:23:37" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:user.Login]" name=yancy
+time="2021-03-19 19:23:37" level=info msg="After Create %s{<nil> <nil> user.Login dsdsd}" name=yancy
+time="2021-03-19 19:23:37" level=info msg="传入的函数参数为 %v[salsas]" name=yancy
+time="2021-03-19 19:36:02" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.Login\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 19:36:02" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:user.Login]" name=yancy
+time="2021-03-19 19:36:02" level=info msg="After Create %s{<nil> <nil> user.Login dsdsd}" name=yancy
+time="2021-03-19 19:36:02" level=info msg="传入的函数参数为 %v[salsas]" name=yancy
+time="2021-03-19 19:44:36" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.Login\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 19:44:36" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:user.Login]" name=yancy
+time="2021-03-19 19:44:36" level=info msg="After Create %s{<nil> <nil> user.Login dsdsd}" name=yancy
+time="2021-03-19 19:44:36" level=info msg="传入的函数参数为 %v[salsas]" name=yancy
+time="2021-03-19 19:47:59" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.Login\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 19:47:59" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:user.Login]" name=yancy
+time="2021-03-19 19:47:59" level=info msg="After Create %s{<nil> <nil> user.Login dsdsd}" name=yancy
+time="2021-03-19 19:47:59" level=info msg="传入的函数参数为 %v[salsas]" name=yancy
+time="2021-03-19 19:48:46" level=info msg="post请求的输入参数%v{\"interfaceName\":\"user.Login\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 19:48:46" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:user.Login]" name=yancy
+time="2021-03-19 19:48:46" level=info msg="After Create %s{<nil> <nil> user.Login dsdsd}" name=yancy
+time="2021-03-19 19:48:46" level=info msg="传入的函数参数为 %v[salsas]" name=yancy
+time="2021-03-19 19:48:53" level=info msg="post请求的输入参数%v{\"interfaceName\":\"Login\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 19:48:53" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:Login]" name=yancy
+time="2021-03-19 19:48:53" level=info msg="After Create %s{<nil> <nil> Login dsdsd}" name=yancy
+time="2021-03-19 19:48:53" level=info msg="传入的函数参数为 %v[salsas]" name=yancy
+time="2021-03-19 19:48:53" level=info msg="| 200 |      3.2676ms |       127.0.0.1 | POST | /ewew/wqwq |"
+time="2021-03-19 19:52:33" level=info msg="| 404 |            0s |       127.0.0.1 | GET | /ewew/wqwq |"
+time="2021-03-19 19:56:15" level=info msg="post请求的输入参数%v{\"interfaceName\":\"Login\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 19:56:15" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:Login]" name=yancy
+time="2021-03-19 19:56:15" level=info msg="After Create %s{<nil> <nil> Login dsdsd}" name=yancy
+time="2021-03-19 19:56:15" level=info msg="传入的函数参数为 %v[salsas]" name=yancy
+time="2021-03-19 19:56:15" level=info msg="| 200 |      4.3482ms |       127.0.0.1 | POST | /ewew/wqwq |"
+time="2021-03-19 19:57:02" level=info msg="post请求的输入参数%v{\"interfaceName\":\"Login\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 19:57:02" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:Login]" name=yancy
+time="2021-03-19 19:57:02" level=info msg="After Create %s{<nil> <nil> Login dsdsd}" name=yancy
+time="2021-03-19 19:57:02" level=info msg="传入的函数参数为 %v[salsas]" name=yancy
+time="2021-03-19 19:57:02" level=info msg="| 200 |      2.5841ms |       127.0.0.1 | POST | /ewew/wqwq |"
+time="2021-03-19 20:15:58" level=info msg="post请求的输入参数%v{\"interfaceName\":\"Login\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 20:15:58" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:Login]" name=yancy
+time="2021-03-19 20:15:58" level=info msg="After Create %s{<nil> <nil> Login dsdsd}" name=yancy
+time="2021-03-19 20:15:58" level=info msg="传入的函数参数为 %v[salsas]" name=yancy
+time="2021-03-19 20:16:27" level=info msg="post请求的输入参数%v{\"interfaceName\":\"UserLogin\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 20:16:27" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:UserLogin]" name=yancy
+time="2021-03-19 20:16:27" level=info msg="After Create %s{<nil> <nil> UserLogin dsdsd}" name=yancy
+time="2021-03-19 20:16:27" level=info msg="传入的函数参数为 %v[salsas]" name=yancy
+time="2021-03-19 20:16:27" level=info msg="| 200 |      1.0886ms |       127.0.0.1 | POST | /ewew/wqwq |"
+time="2021-03-19 20:19:45" level=info msg="post请求的输入参数%v{\"interfaceName\":\"UserLogin\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 20:19:45" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:UserLogin]" name=yancy
+time="2021-03-19 20:19:45" level=info msg="After Create %s{<nil> <nil> UserLogin dsdsd}" name=yancy
+time="2021-03-19 20:19:45" level=info msg="传入的函数参数为 %v[dsdsd]" name=yancy
+time="2021-03-19 20:19:45" level=info msg="| 200 |      2.0291ms |       127.0.0.1 | POST | /ewew/wqwq |"
+time="2021-03-19 20:23:49" level=info msg="post请求的输入参数%v{\"interfaceName\":\"UserLogin\",\"data\":\"dsdsd\"}" name=yancy
+time="2021-03-19 20:23:49" level=info msg="post请求的输入参数%vmap[data:dsdsd interfaceName:UserLogin]" name=yancy
+time="2021-03-19 20:23:49" level=info msg="After Create %s{<nil> <nil> UserLogin dsdsd}" name=yancy
+time="2021-03-19 20:23:49" level=info msg="传入的函数参数为 %v[dsdsd]" name=yancy
+time="2021-03-19 20:23:49" level=info msg="| 200 |      2.7193ms |       127.0.0.1 | POST | /ewew/wqwq |"
+time="2021-03-19 20:24:18" level=info msg="post请求的输入参数%v{\"interfaceName\":\"UserLogin\",\"data\":\"yancy\"}" name=yancy
+time="2021-03-19 20:24:18" level=info msg="post请求的输入参数%vmap[data:yancy interfaceName:UserLogin]" name=yancy
+time="2021-03-19 20:24:18" level=info msg="After Create %s{<nil> <nil> UserLogin yancy}" name=yancy
+time="2021-03-19 20:24:18" level=info msg="传入的函数参数为 %v[yancy]" name=yancy
+time="2021-03-19 20:24:18" level=info msg="| 200 |      2.0118ms |       127.0.0.1 | POST | /ewew/wqwq |"
