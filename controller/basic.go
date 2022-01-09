@@ -3,8 +3,8 @@ package controller
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/ginRest/controller/user"
-	"github.com/ginRest/system"
+	"gin_test/controller/user"
+	"gin_test/system"
 	"github.com/sirupsen/logrus"
 	"reflect"
 )

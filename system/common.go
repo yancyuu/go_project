@@ -39,10 +39,6 @@ func GetStructFieldNames(structName interface{}) []string {
 	return result
 }
 
-func Logger() {
-	panic("unimplemented")
-}
-
 //获取结构体中字段的内容
 func GetStructFields(structName interface{}) []interface{} {
 	t := reflect.TypeOf(structName)

@@ -3,9 +3,11 @@ package user
 import (
 	"encoding/json"
 	"fmt"
+	"gin_test/system"
+	"runtime"
+
 	"github.com/eatmoreapple/openwechat"
 	"github.com/widuu/gojson"
-	_ "github.com/widuu/gojson"
 )
 
 var apiKey = []string{"51a1337c2b9d4031b89460045ddec3b7", "c6118b8873b34a4c86f437dff774dd80",
@@ -72,7 +74,7 @@ func (p *Param) PopRightValue(info string) Value {
 	return value
 }
 
-func (u *User) AutoWechatRun() {
+func (u *User) AutoPackMsg() func(*openwechat.Message) {
 
 	param := new(Param)
 	param.userid = u.Username
@@ -86,19 +88,41 @@ func (u *User) AutoWechatRun() {
 		text, _ := msg.ReplyText(value.text)
 		fmt.Println(text)
 	}
+	return Handler
+}
+
+func (u *User) RegistNewBot() *openwechat.Bot {
 	bot := openwechat.DefaultBot()
 	// 注册消息处理函数
-	bot.MessageHandler = Handler
+	bot.MessageHandler = u.AutoPackMsg()
 	// 设置默认的登录回调
 	// 可以设置通过该uuid获取到登录的二维码
 	bot.UUIDCallback = openwechat.PrintlnQrcodeUrl
-	// 登录
-	if err := bot.Login(); err != nil {
-		fmt.Println(err)
+	return bot
+}
+
+//多用户登录
+func AutoWechatLoging(bots [2]*openwechat.Bot) {
+	for _, bot := range bots {
+		// 登录
+		fmt.Println("AutoWechatLoging")
+		if err := bot.Login(); err != nil {
+			fmt.Println(err)
+		}
+		fmt.Println("AutoWechatLoging2")
+
 	}
+}
+
+//多用户阻塞
+func AutoWechatsBlock(bots [2]*openwechat.Bot) {
 	// 阻塞主程序,直到用户退出或发生异常
-	err := bot.Block()
-	if err != nil {
-		fmt.Println(err)
+	for _, bot := range bots {
+		err := bot.Block()
+		if err != nil {
+			fmt.Println(err)
+		}
+		//多用户开启多线程
+		runtime.Gosched()
 	}
 }
